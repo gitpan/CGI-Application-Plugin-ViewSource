@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: CGI-Application-Plugin-ViewSource
+version: 0.01
+author:
+  - Michael Peters <mpeters@plusthree.com>
+abstract: View the source of the running application
+license: perl
+requires:
+  CGI::Application: 4
+  Syntax::Highlight::Perl::Improved: 1
+  Test::More: 0
+provides:
+  CGI::Application::Plugin::ViewSource:
+    file: lib/CGI/Application/Plugin/ViewSource.pm
+    version: 0.01
+generated_by: Module::Build version 0.2611
