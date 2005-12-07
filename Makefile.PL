@@ -5,7 +5,9 @@ WriteMakefile
           'PL_FILES' => {},
           'INSTALLDIRS' => 'site',
           'NAME' => 'CGI::Application::Plugin::ViewSource',
+          'EXE_FILES' => [],
           'VERSION_FROM' => 'lib/CGI/Application/Plugin/ViewSource.pm',
+          'PM' => undef,
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'CGI::Application' => '4',

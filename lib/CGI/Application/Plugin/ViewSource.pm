@@ -7,13 +7,13 @@ use Syntax::Highlight::Perl::Improved;
 
 CGI::Application::Plugin::ViewSource - View the source of the running application
 
-=head1 VERSION
+=head1 DEPRECATED
 
-Version 0.01
+Please use L<CGI::Application::Plugin::ViewCode> instead.
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $DEBUG = 0;
 
 # DEFAULT_STYLES taken from Apache::Syntax::Highlight::Perl by Enrico Sorcinelli
